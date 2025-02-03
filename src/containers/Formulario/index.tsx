@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { Header, Titulo } from '../../styles'
 import { BotaoCadastro, FormContainer, Inputs } from './styles'
-import Usuario from '../../models/Usuario'
 import { cadastrar } from '../../store/reducers/dados'
 
 const Formulario = () => {

@@ -6,26 +6,7 @@ type TarefasState = {
 }
 
 const initialState: TarefasState = {
-  itens: [
-    {
-      nome: 'Vinicius Alves',
-      email: 'vinicius.silva_01@outlook.com',
-      telefone: '11987614111',
-      id: 1
-    },
-    {
-      nome: 'Amanda Alves',
-      email: 'ameinda.silva_01@outlook.com',
-      telefone: '11987614222',
-      id: 2
-    },
-    {
-      nome: 'Gil Alves',
-      email: 'gilicius.silva_01@outlook.com',
-      telefone: '11987614333',
-      id: 3
-    }
-  ]
+  itens: []
 }
 
 const usuarioSlice = createSlice({
